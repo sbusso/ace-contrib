@@ -43,7 +43,7 @@ func Track(i *client.Client) ace.HandlerFunc {
       Database:      "mixevents",
       RetentionPolicy: "default",
   	}
-    i.Write(bps)
+    go i.Write(bps)
     c.Next()
   }
 }
