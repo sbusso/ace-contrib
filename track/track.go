@@ -2,10 +2,12 @@ package track
 
 import (
   "github.com/plimble/ace"
-  "github.com/plimble/sessions/store/cookie"
   "code.google.com/p/go-uuid/uuid"
 )
 
+const (
+    Tracker     = "__fat"
+  )
 // Middleware sets Tracking cookie
 func Track() ace.HandlerFunc {
 
