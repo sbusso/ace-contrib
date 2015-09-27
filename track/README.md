@@ -1,11 +1,11 @@
 # ace-cors
 
-CORS middleware for [ACE](https://github.com/plimble/ace)
+Track middleware for [ACE](https://github.com/plimble/ace)
 
 ## Installation
 
 ``` bash
-$ go get github.com/plimble/ace-contrib/cors
+$ go get github.com/sbusso/ace-contrib/track
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ $ go get github.com/plimble/ace-contrib/cors
 ``` go
 import (
     "github.com/plimble/ace"
-    "github.com/plimble/ace-contrib/cors"
+    "github.com/sbusso/ace-contrib/track"
 )
 
 func main(){
